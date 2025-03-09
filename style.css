@@ -127,7 +127,8 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #4B69FD;
+    color: white;
 }
 
 /* Listas */
@@ -175,6 +176,12 @@ ul {
     color: var(--color-white);
     background-color: var(--color-button2);
     font-size: 16px;
+}
+
+.button-reinicio:disabled {
+    background-color: #ccc;
+    color: #666;
+    opacity: 0.6;
 }
 
 .button-reinicio:hover {
