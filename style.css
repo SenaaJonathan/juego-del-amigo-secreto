@@ -4,7 +4,9 @@
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
+    --color-button2: #fac71e;
     --color-button-hover: #e55720;
+    --color-button-hover2: #ffaf01;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -91,6 +93,7 @@ body {
 .button-container {
     width: 300px;
     justify-content: center;
+    padding: 10px;
 }
 
 /* Estilos de entrada de texto */
@@ -128,7 +131,7 @@ button {
 
 /* Listas */
 ul {
-    list-style-type: none;
+    list-style-type: disc;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
     font-size: 18px;
@@ -160,4 +163,23 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+
+.button-reinicio {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button2);
+    font-size: 16px;
+}
+
+.button-reinicio:hover {
+    background-color: var(--color-button-hover2);
+}
+
+.button-reinicio img {
+    margin-right: 40px;
 }
